@@ -12,7 +12,7 @@ function App() {
   return (
         <Router>
             <>
-                <Navbar title="TextUtils" about="About TextUtils"/>
+                <Navbar title="Rohan" about="About TextUtils"/>
                 <Switch>
                     <Route path="/" exact component={Main}/>
                     <Route path="/about" exact component={About}/>
